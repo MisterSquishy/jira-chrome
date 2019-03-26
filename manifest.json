@@ -1,0 +1,19 @@
+{
+  "name": "Jira Issue Creator",
+  "version": "1.0",
+  "description": "Create simple Jira tickets",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "options_page": "options.html",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/penguin-icon.png"
+  },
+  "icons": {
+    "128": "images/penguin-icon.png"
+  },
+  "manifest_version": 2
+}
